@@ -1,0 +1,116 @@
+* Elixir - what's the fuss all about?
+
+ Lars Hesel Christensen
+ Erlang and Elixir consulting
+
+ twitter: @larshesel
+ e-mail: lhc@larshesel.dk
+ github.com/larshesel
+
+* Why this talk?
+
+  - Elixir v1.0 came out in September
+  - Elixir is gaining popularity
+  - I've been working with it a while
+  - I think it's pretty cool
+
+* Overview
+
+  - Invented by José Valim
+
+    josevalim authored on Jan 9, 2011
+    Message: "First commit."
+    >> # Elixir
+    >>
+    >> Nothing interesting here yet. Try again later.
+
+  - Ruby-like syntax
+  - Runs on the Erlang VM, compiles to the Erlang AST
+  - Erlang & Elixir code is 100% interchangeable.
+
+* Why create Elixir?
+
+  “I liked everything I saw in Erlang, but I hated the things that I
+  didn’t see” -- José Valim
+
+
+  We can of course speculate:
+     - Unloved syntax.
+     - Difficult to get started for new-comers.
+     - Bad tooling (compared to newer languages like Go).
+     - No official package manager.
+     - Lack of momentum?
+     - Many non-obvious choices makes starting hard:
+         common test vs eunit?
+         rebar (rebar3) erlang.mk
+         systool, reltool, relx...
+
+* Quick intro to elixir code
+
+ Let's look at a bit of code...
+
+* What else than syntax does Elixir give us?
+
+ Three main categories:
+   - Sugar/cleanup
+   - New features
+   - Tooling
+
+* Cleanup, sugar and new features
+
+  - A bunch of Elixir modules:
+     Enum, List, Map, Keyword, GenServer, GenEvent, Supervisor,
+     Subject position in libraries
+  - Pipes
+  - Strings are efficient (binaries instead of lists)
+  - Great unicode support
+  - Default arguments
+  - Docstrings
+  - Keyword lists (proplists)
+  - Function capturing: the & Notation
+  - ! and ? function notation convention
+
+* The slightly more advanced stuff
+
+  - Streams
+  - Protocols
+  - Macros
+
+
+*
+ Tooling
+
+  - shell has docs and colors 
+  - mix - build tool (+ extensible)
+  - package manager (hex.pm)
+  - editors: emacs, vim, sublime, intellij...
+  - (release management)
+
+* Mix
+  - build system
+  - project templates
+  - dependencies
+  - extensible
+
+Let's take it for a spin...
+
+* Resources
+
+  www.elixir-lang.org
+
+  Programming Elixir - Dave Thomas
+  Metaprogramming Elixir - Chris McCord
+  Elixir in Action - Saša Jurić
+  Introducing Elixir -
+  Simon St. Laurent & J. David Eisenberg
+
+  more over here:
+  http://elixir-lang.org/learning.html
+
+  And of course:
+  http://learnyousomeerlang.com
+
+* Thanks!
+
+  Questions?
+
